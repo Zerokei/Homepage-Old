@@ -97,6 +97,7 @@ export default {
   /*居中*/
 }
 .middle {
+  max-width: 80%;
   width:600px;
   height:300px;
   /*display:flex;*/
