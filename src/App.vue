@@ -14,7 +14,7 @@
       <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://github.com/Zerokei">
-            <Icon icon="ant-design:github-filled" width="18" color="#FFFFFF"/>
+            <Icon icon="ant-design:github-filled" width="21" color="#FFFFFF"/>
           </el-link>
         </el-button>
       </el-col>
@@ -22,7 +22,7 @@
       <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://blog.zerokei.top">
-            <Icon icon="la:blogger-b" width="22" color="#FFFFFF"/>
+            <Icon icon="la:blogger-b" width="23" color="#FFFFFF"/>
           </el-link>
         </el-button>
       </el-col>
@@ -30,7 +30,7 @@
       <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://notes.zerokei.top">
-            <el-icon style="vertical-align: middle" color="#FFFFFF" :size="20">
+            <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
               <Notebook />
             </el-icon>
           </el-link>
@@ -49,7 +49,7 @@
       <el-col :span="4">
         <el-button size="large" circle color="#18222c" disabled>
           <el-link href="https://github.com/Zerokei">
-            <Icon icon="ant-design:twitter-outlined" width="18" color="#FFFFFF"/>
+            <Icon icon="ant-design:twitter-outlined" width="20" color="#FFFFFF"/>
           </el-link>
         </el-button>
       </el-col>
