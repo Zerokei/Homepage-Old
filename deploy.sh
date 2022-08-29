@@ -2,7 +2,7 @@
 
 git add -A
 git commit -m 'store src'
-git push git push -f git@github.com:Zerokei/Homepage.git master:master
+git push -f git@github.com:Zerokei/Homepage.git master:master
 
 cd dist
 echo "zerokei.top" >> CNAME
