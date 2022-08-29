@@ -2,7 +2,7 @@
 My homepage, frontend framework for Vue.
 
 ## Usage
-1. get the 
+1. get the source code
 ```bash
 $ git clone https://github.com/Zerokei/Homepage.git
 $ cd Homepage
