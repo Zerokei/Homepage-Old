@@ -1,16 +1,14 @@
 
 <template>
   <div class="middle">
-<!--    标题-->
+
+    <!--    标题-->
     <img alt="Vue logo" src="./assets/logo.png" width="100">
     <h1 class="div"> Welcome to Chritch's Personal Site </h1>
-    <!--    选项-->
 
+    <!--    选项-->
     <el-row justify="center">
-<!--        <div class="grid-content" /></el-col>-->
-<!--        <el-col :span="8"><div class="grid-content" /></el-col>-->
-<!--        <el-col :span="8"><div class="grid-content"/></el-col>-->
-<!--      <el-col :span="2"/>-->
+
       <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://github.com/Zerokei">
@@ -26,7 +24,7 @@
           </el-link>
         </el-button>
       </el-col>
-  <!--        <el-divider direction="vertical" />-->
+
       <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://notes.zerokei.top">
@@ -53,9 +51,9 @@
           </el-link>
         </el-button>
       </el-col>
-
     </el-row>
   </div>
+  <!--  备案号-->
   <div class="msg_btn_box div">
     <p>
       Copyright © 2022 @Chritch
@@ -80,8 +78,8 @@ export default {
   font-family: Jua;
   src: url("fonts/Jua-Regular.ttf");
 }
-
 .div{
+  /*标题字体*/
   font-family: 'Jua', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: white;
@@ -94,35 +92,34 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /*居中*/
 }
 .middle {
-  max-width: 80%;
+  /*大小设置*/
+  max-width: 80%; /*防止溢出*/
   width:600px;
   height:300px;
-  /*display:flex;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
 
+  /*居中*/
   margin: auto;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  /*position:absolute;*/
-  /*top:50%;*/
-  /*left:50%;*/
-  /*transform:translate(-50%,-50%);*/
 }
-.msg_btn_box {position:absolute;bottom: 30px;margin: auto;left: 0;right: 0;}
+.msg_btn_box {
+  /*底部栏目信息*/
+  position:absolute;
+  bottom: 30px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
 a {
   color: white;
 }
 a:link,a:visited{
   text-decoration:none;  /*超链接无下划线*/
 }
-/*a:hover{*/
-  /*text-decoration:underline;  !*鼠标放上去有下划线*!*/
-/*}*/
 </style>

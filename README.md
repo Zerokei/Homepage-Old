@@ -1,24 +1,16 @@
-# untitled1
+# Homepage
+My homepage, frontend framework for Vue.
 
-## Project setup
+## Usage
+1. get the 
+```bash
+$ git clone https://github.com/Zerokei/Homepage.git
+$ cd Homepage
 ```
-npm install
+2. adjust the source code
+3. deploy
+The deploy.sh script should be modified
+```bash
+$ npm run build # generate dist
+$ ./deploy.sh
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
