@@ -45,8 +45,8 @@
 
 
       <el-col :span="4">
-        <el-button size="large" circle color="#18222c" disabled>
-          <el-link href="https://github.com/Zerokei">
+        <el-button size="large" circle color="#18222c">
+          <el-link href="https://twitter.com/Chritch101">
             <Icon icon="ant-design:twitter-outlined" width="20" color="#FFFFFF"/>
           </el-link>
         </el-button>
