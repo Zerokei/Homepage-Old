@@ -4,28 +4,22 @@
 
     <!--    标题-->
     <img alt="Vue logo" src="./assets/logo.png" width="100">
-    <h1 class="div"> Welcome to Chritch's Personal Site </h1>
+    <h1 class="div"> Chritch's Personal Site </h1>
 
     <!--    选项-->
+
     <el-row justify="center">
 
-      <el-col :span="4">
+      <el-col :span="5">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://github.com/Zerokei">
-            <Icon icon="ant-design:github-filled" width="21" color="#FFFFFF"/>
+            <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
+              <User />
+            </el-icon>
           </el-link>
         </el-button>
       </el-col>
-
-      <el-col :span="4">
-        <el-button size="large" circle color="#1d3043">
-          <el-link href="https://blog.zerokei.top">
-            <Icon icon="la:blogger-b" width="23" color="#FFFFFF"/>
-          </el-link>
-        </el-button>
-      </el-col>
-
-      <el-col :span="4">
+      <el-col :span="5">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://notes.zerokei.top">
             <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
@@ -34,20 +28,12 @@
           </el-link>
         </el-button>
       </el-col>
-
-      <el-col :span="4">
-        <el-button size="large" circle color="#1d3043">
+      <el-col :span="5">
+        <el-button size="large" circle color="#1d3043" >
           <el-link href="mailto:chritch-7@outlook.com">
-            <Icon icon="ci:mail" color="#FFFFFF" width="20" />
-          </el-link>
-        </el-button>
-      </el-col>
-
-
-      <el-col :span="4">
-        <el-button size="large" circle color="#1d3043">
-          <el-link href="https://twitter.com/Chritch101">
-            <Icon icon="ant-design:twitter-outlined" width="20" color="#FFFFFF"/>
+            <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
+              <Message />
+            </el-icon>
           </el-link>
         </el-button>
       </el-col>
@@ -63,12 +49,8 @@
 </template>
 
 <script>
-import { Icon } from '@iconify/vue';
 export default {
   name: 'App',
-  components: {
-    Icon
-  }
 }
 </script>
 
@@ -85,7 +67,6 @@ export default {
   color: white;
   size: A5;
 }
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
