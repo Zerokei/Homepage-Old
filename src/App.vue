@@ -10,7 +10,7 @@
 
     <el-row justify="center">
 
-      <el-col :span="5">
+      <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://github.com/Zerokei">
             <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
@@ -19,7 +19,16 @@
           </el-link>
         </el-button>
       </el-col>
-      <el-col :span="5">
+      <el-col :span="4">
+        <el-button size="large" circle color="#1d3043">
+          <el-link href="https://obsidian.zerokei.top">
+            <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
+              <Reading />
+            </el-icon>
+          </el-link>
+        </el-button>
+      </el-col>
+      <el-col :span="4">
         <el-button size="large" circle color="#1d3043">
           <el-link href="https://notes.zerokei.top">
             <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
@@ -28,7 +37,7 @@
           </el-link>
         </el-button>
       </el-col>
-      <el-col :span="5">
+      <el-col :span="4">
         <el-button size="large" circle color="#1d3043" >
           <el-link href="mailto:chritch-7@outlook.com">
             <el-icon style="vertical-align: middle" color="#FFFFFF" :size="19">
