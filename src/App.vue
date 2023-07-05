@@ -3,7 +3,7 @@
   <div class="middle">
 
     <!--    标题-->
-    <img alt="Vue logo" src="./assets/logo.png" width="100">
+    <img alt="Logo" src="./assets/logo.png" width="100">
     <h1 class="div"> Chritch's Personal Site </h1>
 
     <!--    选项-->
